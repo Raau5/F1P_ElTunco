@@ -9,11 +9,9 @@
 
     <link rel="stylesheet" href="css/open-iconic-bootstrap.min.css">
     <link rel="stylesheet" href="css/animate.css">
-    
     <link rel="stylesheet" href="css/owl.carousel.min.css">
     <link rel="stylesheet" href="css/owl.theme.default.min.css">
     <link rel="stylesheet" href="css/magnific-popup.css">
-
     <link rel="stylesheet" href="css/aos.css">
     <link rel="stylesheet" href="css/ionicons.min.css">
     <link rel="stylesheet" href="css/bootstrap-datepicker.css">
@@ -22,117 +20,217 @@
     <link rel="stylesheet" href="css/icomoon.css">
     <link rel="stylesheet" href="css/style.css">
   </head>
-
   <body>
 
-  <!-- NAV -->
-  <nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light">
-    <div class="container">
-      <a class="navbar-brand" href="index.html">El<span>Tunco</span></a>
+    <nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light" id="ftco-navbar">
+      <div class="container">
+        <a class="navbar-brand" href="index.html">El<span>Tunco</span></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Alternar navegación">
+          <span class="oi oi-menu"></span> Menú
+        </button>
 
-      <div class="collapse navbar-collapse">
-        <ul class="navbar-nav ml-auto">
-          <li class="nav-item"><a href="index.html" class="nav-link">Inicio</a></li>
-          <li class="nav-item"><a href="galeria.html" class="nav-link">Galería</a></li>
-          <li class="nav-item active"><a href="creadores.html" class="nav-link">Creadores</a></li>
-          <li class="nav-item"><a href="about.html" class="nav-link">Sobre El Tunco</a></li>
-          <li class="nav-item"><a href="blog.html" class="nav-link">Guía</a></li>
-          <li class="nav-item"><a href="contact.html" class="nav-link">Contacto</a></li>
-        </ul>
-      </div>
-    </div>
-  </nav>
-
-  <!-- HERO -->
-  <div class="hero-wrap" style="background-image: url('images/bg_3.jpg');">
-    <div class="overlay"></div>
-    <div class="container">
-      <div class="row no-gutters slider-text justify-content-center align-items-center">
-        <div class="col-md-9 text-center">
-          <h1 class="mb-4 bread">Nuestro Equipo</h1>
-          <p class="breadcrumbs">Creadores del proyecto</p>
+        <div class="collapse navbar-collapse" id="ftco-nav">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item"><a href="index.html" class="nav-link">Inicio</a></li>
+            <li class="nav-item"><a href="galeria.html" class="nav-link">Galería</a></li>
+            <li class="nav-item active"><a href="creadores.html" class="nav-link">Creadores</a></li>
+            <li class="nav-item"><a href="about.html" class="nav-link">Sobre El Tunco</a></li>
+            <li class="nav-item"><a href="blog.html" class="nav-link">Guía</a></li>
+            <li class="nav-item"><a href="contact.html" class="nav-link">Contacto</a></li>
+          </ul>
         </div>
       </div>
-    </div>
-  </div>
+    </nav>
+    <!-- END nav -->
 
-  <!-- SECCION CREADORES -->
-  <section class="ftco-section">
-    <div class="container">
-
-      <div class="row justify-content-center mb-5">
-        <div class="col-md-7 text-center heading-section ftco-animate">
-          <span class="subheading">Equipo</span>
-          <h2 class="mb-4">Los Creadores</h2>
-          <p>Conoce a las personas detrás de este proyecto sobre El Tunco.</p>
-        </div>
-      </div>
-
-      <div class="row">
-
-        <!-- CREADOR 1 -->
-        <div class="col-md-6 col-lg-3 ftco-animate">
-          <div class="staff text-center">
-            <div class="img mb-4" style="background-image: url(images/person_1.jpg); height:250px; background-size:cover;"></div>
+    <div class="hero-wrap" style="background-image: url('images/bg_3.jpg');">
+      <div class="overlay"></div>
+      <div class="container">
+        <div class="row no-gutters slider-text d-flex align-items-end justify-content-center">
+          <div class="col-md-9 ftco-animate text-center d-flex align-items-end justify-content-center">
             <div class="text">
-              <h3>Nombre 1</h3>
-              <span class="position">Desarrollador</span>
-              <p>Encargado de la estructura del sitio web y programación.</p>
+              <p class="breadcrumbs mb-2">
+                <span class="mr-2"><a href="index.html">Inicio</a></span>
+                <span>Creadores</span>
+              </p>
+              <h1 class="mb-4 bread">Nuestro Equipo</h1>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <section class="ftco-section bg-light">
+      <div class="container">
+        <div class="row justify-content-center mb-5 pb-3">
+          <div class="col-md-8 heading-section text-center ftco-animate">
+            <span class="subheading">Equipo del proyecto</span>
+            <h2 class="mb-4">Los Creadores</h2>
+            <p>
+              Conoce a las cuatro personas encargadas de desarrollar este sitio web informativo sobre Playa El Tunco.
+            </p>
+          </div>
+        </div>
+
+        <div class="row d-flex">
+          <div class="col-md-6 col-lg-3 d-flex ftco-animate">
+            <div class="blog-entry align-self-stretch w-100">
+              <a href="images/person_1.jpg" class="block-20 rounded image-popup" style="background-image: url('images/person_1.jpg');"></a>
+              <div class="text mt-3 text-center">
+                <h3 class="heading">Nombre 1</h3>
+                <div class="meta mb-2">
+                  <div><a href="#">Desarrollador</a></div>
+                </div>
+                <p>Encargado de la estructura del sitio web, programación y funcionamiento general de la página.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-3 d-flex ftco-animate">
+            <div class="blog-entry align-self-stretch w-100">
+              <a href="images/person_2.jpg" class="block-20 rounded image-popup" style="background-image: url('images/person_2.jpg');"></a>
+              <div class="text mt-3 text-center">
+                <h3 class="heading">Nombre 2</h3>
+                <div class="meta mb-2">
+                  <div><a href="#">Diseñador</a></div>
+                </div>
+                <p>Responsable del diseño visual, la organización del contenido y la experiencia de usuario.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-3 d-flex ftco-animate">
+            <div class="blog-entry align-self-stretch w-100">
+              <a href="images/person_3.jpg" class="block-20 rounded image-popup" style="background-image: url('images/person_3.jpg');"></a>
+              <div class="text mt-3 text-center">
+                <h3 class="heading">Nombre 3</h3>
+                <div class="meta mb-2">
+                  <div><a href="#">Investigador</a></div>
+                </div>
+                <p>Encargado de recopilar información, verificar datos y apoyar la construcción del contenido.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-3 d-flex ftco-animate">
+            <div class="blog-entry align-self-stretch w-100">
+              <a href="images/person_4.jpg" class="block-20 rounded image-popup" style="background-image: url('images/person_4.jpg');"></a>
+              <div class="text mt-3 text-center">
+                <h3 class="heading">Nombre 4</h3>
+                <div class="meta mb-2">
+                  <div><a href="#">Contenido</a></div>
+                </div>
+                <p>Responsable de redactar textos, organizar secciones y apoyar la presentación del proyecto.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="ftco-section">
+      <div class="container">
+        <div class="row justify-content-center mb-5">
+          <div class="col-md-10 text-center heading-section ftco-animate">
+            <span class="subheading">Sobre el proyecto</span>
+            <h2 class="mb-4">Un trabajo dedicado a Playa El Tunco</h2>
+            <p>
+              Este sitio fue desarrollado para presentar información visual y descriptiva sobre uno de los destinos más emblemáticos de El Salvador, destacando su ambiente, su identidad turística y su atractivo natural.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="ftco-footer ftco-section img" style="background-image: url(images/bg_4.jpg);">
+      <div class="overlay"></div>
+      <div class="container">
+        <div class="row mb-5">
+          <div class="col-md">
+            <div class="ftco-footer-widget mb-4">
+              <h2 class="ftco-heading-2">El Tunco</h2>
+              <p>
+                Proyecto web informativo sobre uno de los destinos más icónicos de El Salvador.
+              </p>
+              <ul class="ftco-footer-social list-unstyled float-md-left float-lft mt-5">
+                <li class="ftco-animate"><a href="#"><span class="icon-twitter"></span></a></li>
+                <li class="ftco-animate"><a href="#"><span class="icon-facebook"></span></a></li>
+                <li class="ftco-animate"><a href="#"><span class="icon-instagram"></span></a></li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="col-md">
+            <div class="ftco-footer-widget mb-4 ml-md-5">
+              <h2 class="ftco-heading-2">Explora</h2>
+              <ul class="list-unstyled">
+                <li><a href="galeria.html" class="py-2 d-block">Galería</a></li>
+                <li><a href="creadores.html" class="py-2 d-block">Creadores</a></li>
+                <li><a href="about.html" class="py-2 d-block">Sobre El Tunco</a></li>
+                <li><a href="blog.html" class="py-2 d-block">Guía</a></li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="col-md">
+            <div class="ftco-footer-widget mb-4">
+              <h2 class="ftco-heading-2">Información</h2>
+              <ul class="list-unstyled">
+                <li><a href="about.html" class="py-2 d-block">Sobre El Tunco</a></li>
+                <li><a href="contact.html" class="py-2 d-block">Contacto</a></li>
+                <li><a href="creadores.html" class="py-2 d-block">Equipo</a></li>
+                <li><a href="blog.html" class="py-2 d-block">Guía local</a></li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="col-md">
+            <div class="ftco-footer-widget mb-4">
+              <h2 class="ftco-heading-2">¿Preguntas?</h2>
+              <div class="block-23 mb-3">
+                <ul>
+                  <li><span class="icon icon-map-marker"></span><span class="text">Playa El Tunco, Tamanique, La Libertad, El Salvador</span></li>
+                  <li><a href="#"><span class="icon icon-phone"></span><span class="text">+503 0000 0000</span></a></li>
+                  <li><a href="#"><span class="icon icon-envelope"></span><span class="text">info@eltunco.com</span></a></li>
+                </ul>
+              </div>
             </div>
           </div>
         </div>
 
-        <!-- CREADOR 2 -->
-        <div class="col-md-6 col-lg-3 ftco-animate">
-          <div class="staff text-center">
-            <div class="img mb-4" style="background-image: url(images/person_2.jpg); height:250px; background-size:cover;"></div>
-            <div class="text">
-              <h3>Nombre 2</h3>
-              <span class="position">Diseñador</span>
-              <p>Responsable del diseño visual y experiencia del usuario.</p>
-            </div>
+        <div class="row">
+          <div class="col-md-12 text-center">
+            <p>
+              Copyright &copy;<script>document.write(new Date().getFullYear());</script> Todos los derechos reservados | Plantilla adaptada para El Tunco
+            </p>
           </div>
         </div>
-
-        <!-- CREADOR 3 -->
-        <div class="col-md-6 col-lg-3 ftco-animate">
-          <div class="staff text-center">
-            <div class="img mb-4" style="background-image: url(images/person_3.jpg); height:250px; background-size:cover;"></div>
-            <div class="text">
-              <h3>Nombre 3</h3>
-              <span class="position">Investigador</span>
-              <p>Encargado de recopilar información sobre El Tunco.</p>
-            </div>
-          </div>
-        </div>
-
-        <!-- CREADOR 4 -->
-        <div class="col-md-6 col-lg-3 ftco-animate">
-          <div class="staff text-center">
-            <div class="img mb-4" style="background-image: url(images/person_4.jpg); height:250px; background-size:cover;"></div>
-            <div class="text">
-              <h3>Nombre 4</h3>
-              <span class="position">Contenido</span>
-              <p>Encargado de redactar textos y organizar la información.</p>
-            </div>
-          </div>
-        </div>
-
       </div>
+    </footer>
+
+    <!-- loader -->
+    <div id="ftco-loader" class="show fullscreen">
+      <svg class="circular" width="48px" height="48px">
+        <circle class="path-bg" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke="#eeeeee"/>
+        <circle class="path" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke-miterlimit="10" stroke="#F96D00"/>
+      </svg>
     </div>
-  </section>
 
-  <!-- FOOTER -->
-  <footer class="ftco-footer ftco-section img" style="background-image: url(images/bg_4.jpg);">
-    <div class="overlay"></div>
-    <div class="container text-center">
-      <h2>El Tunco</h2>
-      <p>Proyecto web informativo sobre uno de los destinos más icónicos de El Salvador.</p>
-    </div>
-  </footer>
-
-  <script src="js/jquery.min.js"></script>
-  <script src="js/bootstrap.min.js"></script>
-
+    <script src="js/jquery.min.js"></script>
+    <script src="js/jquery-migrate-3.0.1.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.easing.1.3.js"></script>
+    <script src="js/jquery.waypoints.min.js"></script>
+    <script src="js/jquery.stellar.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/jquery.magnific-popup.min.js"></script>
+    <script src="js/aos.js"></script>
+    <script src="js/jquery.animateNumber.min.js"></script>
+    <script src="js/bootstrap-datepicker.js"></script>
+    <script src="js/scrollax.min.js"></script>
+    <script src="js/google-map.js"></script>
+    <script src="js/main.js"></script>
+    
   </body>
 </html>
